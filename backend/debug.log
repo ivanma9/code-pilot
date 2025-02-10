@@ -1,0 +1,2130 @@
+Watching for file changes with StatReloader
+Received suggestion request with data: {'text': 'using Cost      = std::uint16_t;dewdk', 'context': '#include <set>\n#include <utility>\n#include <vector>\n\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;dewdkk\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;\n\nconstexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };'}
+Received suggestion request with data: {'text': 'using Cost      = std::uint16_t;dewdk', 'context': '#include <set>\n#include <utility>\n#include <vector>\n\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;dewdkk\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;\n\nconstexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };'}
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request at 2025-02-09 21:57:28,985
+[api.views] suggestions request at 2025-02-09 21:57:28,985
+[api.views] suggestions request at 2025-02-09 21:57:58,197
+[api.views] suggestions request at 2025-02-09 21:57:58,197
+[api.views] suggestions request at 2025-02-09 21:58:39,394
+[api.views] suggestions request at 2025-02-09 21:58:39,394
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4350646736
+[api.views] suggestions request received - Request ID: 4350646736
+/Users/ivanma/Desktop/code-pilot/backend/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/config/settings.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4427819856
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4443592656
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;o, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;ok
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 25, in suggestions
+    ai_service = AIService()
+                 ^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py", line 9, in __init__
+    self.client = Groq(
+                  ^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_client.py", line 84, in __init__
+    raise GroqError(
+groq.GroqError: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+[api.views] suggestions request received - Request ID: 4443456976
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;de, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;ded
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 25, in suggestions
+    ai_service = AIService()
+                 ^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py", line 9, in __init__
+    self.client = Groq(
+                  ^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_client.py", line 84, in __init__
+    raise GroqError(
+groq.GroqError: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4361701200
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;d, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;de
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 25, in suggestions
+    ai_service = AIService()
+                 ^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py", line 9, in __init__
+    self.client = Groq(
+                  ^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_client.py", line 84, in __init__
+    raise GroqError(
+groq.GroqError: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4571522640
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;e
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+GROQ_API_KEY not found in environment variables
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 25, in suggestions
+    ai_service = AIService()
+                 ^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py", line 9, in __init__
+    self.client = Groq(
+                  ^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_client.py", line 84, in __init__
+    raise GroqError(
+groq.GroqError: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4363511696
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;e
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 26, in suggestions
+    ai_suggestions = ai_service.get_suggestions(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIService' object has no attribute 'get_suggestions'
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4590490320
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;e
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"text": "using Cost      = std::uint32_t;"},\n    {"text": "using Cost      = std::uint64_t;"},\n    {"text": "#include <limits>"}'}}
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 26, in suggestions
+    ai_suggestions = ai_service.generate_suggestions(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py", line 19, in generate_suggestions
+    completion = self.client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/resources/chat/completions.py", line 322, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_base_client.py", line 1266, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_base_client.py", line 958, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/groq/_base_client.py", line 1061, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.BadRequestError: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"text": "using Cost      = std::uint32_t;"},\n    {"text": "using Cost      = std::uint64_t;"},\n    {"text": "#include <limits>"}'}}
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4398790416
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;e
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n        "text": "Consider using `int` instead of `std::uint16_t` for better compatibility with standard library functions that expect signed integers."\n    },\n    {\n        "text": "Use `std::int16_t` for a signed 16-bit integer type if negative values are needed."\n    },\n    {\n        "text": "If you need a larger range, consider using `std::uint32_t` or `std::int32_t`."\n    },\n    {\n        "text": "For floating-point costs, you could use `float` or `double`."\n    },\n    {\n        "text": "If you\'re working with a specific fixed-point arithmetic, consider using a custom type."\n    }'}}
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4426857040
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;e, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;ej
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'Consider using "uint16_t" from the "cstdint" header instead of "std::uint16_t". The former is more portable and recommended in C++.'}, {'text': 'Consider using "size_t" instead of a specific integer type like "uint16_t". This will allow the Cost type to match the size of the underlying system and prevent potential overflows.'}, {'text': 'Consider defining a constant for the maximum value of Cost instead of using "std::numeric_limits< CostTable::value_type >::max()". This can make the code more readable and maintainable.'}]
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4370336272
+[api.views] Processing suggestion - Text: using Cost      = std::uint16_t;, Context: #include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;s
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+constexpr auto kInfiniteCost{ std::numeric_limits< CostTable::value_type >::max() };
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'using cost_t = std::uint16_t;'}, {'text': 'using Cost = uint16_t;'}, {'text': 'using Cost = std::uint_least16_t;'}]
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4581981584
+[api.views] Processing suggestion - Text: while ( !minHeap.empty(), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty()
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': "Consider using 'auto' for the type of 'vertexCost' and 'vertex' for easier code maintenance"}, {'text': 'Add braces to the while loop for better code readability'}, {'text': 'Consider reserving space in the minHeap for better performance if the size is known'}]
+[api.views] suggestions request received - Request ID: 4581578000
+[api.views] Processing suggestion - Text: while ( !minHeap.empty(), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'Consider using a range-based for loop for iterating over the minHeap.'}, {'text': "Consider using the 'auto' keyword for iterating over the minHeap to improve readability."}, {'text': "Consider using the 'cbegin()' and 'cend()' functions instead of 'begin()' and 'end()' for iterating over the minHeap, if the minHeap is const."}]
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4362263120
+[api.views] Processing suggestion - Text: using Vertex    = std::uint16_t;, Context: #include <limits>
+#include <set>
+#include <utility>
+#include <vector>
+
+using Vertex    = std::uint16_t;j
+using Cost      = std::uint16_t;
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;
+
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'using Vertex    = std::uint16_t;'}, {'text': 'using Vertex    = std::uint32_t;'}, {'text': 'using typename Vertex    = std::uint16_t;'}]
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/models.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4388466640
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4388462544
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4388460816
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4388184656
+Bad Request: /api/suggestions/
+/Users/ivanma/Desktop/code-pilot/backend/api/serializers.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4406852432
+Bad Request: /api/suggestions/
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4581964688
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 19, in suggestions
+    logger.info(f"[{__name__}] Serializer data: {serializer.data}")
+                                                 ^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 245, in data
+    raise AssertionError(msg)
+AssertionError: When a serializer is passed a `data` keyword argument you must call `.is_valid()` before attempting to access the serialized `.data` representation.
+You should either call `.is_valid()` first, or access `.initial_data` instead.
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4608193232
+[api.views] Serializer data: {'text': 'd', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\ndi\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4608029008
+[api.views] Serializer data: {'text': 'h', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nhi\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4607915152
+[api.views] Serializer data: {'text': 'h', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nhi\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4608184656
+[api.views] Serializer data: {'text': 'd', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nde\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4607793168
+[api.views] Serializer data: {'text': '', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\ns\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;', 'language': 'c'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4608021392
+[api.views] Serializer data: {'text': 'std:', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nstd::\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;', 'language': 'c'}
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table api_suggestion has no column named language
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 22, in suggestions
+    suggestion = serializer.save()
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/base.py", line 892, in save
+    self.save_base(
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/base.py", line 998, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1161, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/base.py", line 1202, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1836, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table api_suggestion has no column named language
+Internal Server Error: /admin/api/suggestion/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: api_suggestion.language
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/contrib/admin/options.py", line 2140, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/query.py", line 382, in __len__
+    self._fetch_all()
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 354, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: api_suggestion.language
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4403694032
+[api.views] Serializer data: {'text': 'std:', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nstd::\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;', 'language': 'c'}
+[api.views] Processing suggestion - Text: std:, Context: #include <iostream>
+#include <limits>
+#include <set>
+#include <utility>
+#include <vector>
+std::
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n    "suggestions": [\n        {"text": "Dijkstra\'s algorithm implementation:\\n```\\nstd::uint64_t dijkstra(const Graph& graph, const Vertex source) {\\n    CostTable costs(graph.size(), std::numeric_limits<std::uint64_t>::max());\\n    costs[source] = 0;\\n    std::set<std::pair<Cost, Vertex>> priority_queue;\\n    priority_queue.insert({0, source});\\n\\n    while (!priority_queue.empty()) {\\n        auto [current_cost, current_vertex] = *priority_queue.begin();\\n        priority_queue.erase(priority_queue.begin());\\n\\n        if (current_cost > costs[current_vertex]) continue;\\n\\n        for (const auto& neighbor : graph[current_vertex]) {\\n            auto [neighbor_vertex, weight] = neighbor;\\n            auto new_cost = current_cost + weight;\\n            if (new_cost < costs[neighbor_vertex]) {\\n                costs[neighbor_vertex] = new_cost;\\n                priority_queue.insert({new_cost, neighbor_vertex});\\n            }\\n        }\\n    }\\n\\n    return costs;\\n}\\n``"}},\n        {"text": "Breadth-First Search (BFS) implementation:\\n```\\nvoid bfs(const Graph& graph, const Vertex start) {\\n    std::vector<bool> visited(graph.size(), false);\\n    std::queue<Vertex> queue;\\n    queue.push(start);\\n    visited[start] = true;\\n\\n    while (!queue.empty()) {\\n        Vertex current = queue.front();\\n        queue.pop();\\n        std::cout << \\"Visited vertex: \\" << current << std::endl;\\n\\n        for (const auto& neighbor : graph[current]) {\\n            Vertex neighbor_vertex = neighbor.first;\\n            if (!visited[neighbor_vertex]) {\\n                visited[neighbor_vertex] = true;\\n                queue.push(neighbor_vertex);\\n            }\\n        }\\n    }\\n}\\n``"},\n        {"text": "Graph printing helper function:\\n```\\nvoid print_graph(const Graph& graph) {\\n    for (Vertex vertex = 0; vertex < graph.size(); ++vertex) {\\n        std::cout << \\"Vertex \\" << vertex << \\" neighbors:\\\\n\\";\\n        for (const auto& edge : graph[vertex]) {\\n            std::cout << \\"- Vertex \\" << edge.first << \\" with cost \\" << edge.second << std::endl;\\n        }\\n        std::cout << std::endl;\\n    }}'}}
+[api.views] suggestions request received - Request ID: 4402781136
+[api.views] Serializer data: {'text': 'std::', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nstd::algorithm\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;', 'language': 'c'}
+[api.views] Processing suggestion - Text: std::, Context: #include <iostream>
+#include <limits>
+#include <set>
+#include <utility>
+#include <vector>
+std::algorithm
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'std::sort'}, {'text': 'std::find'}, {'text': 'std::min'}]
+[api.views] suggestions request received - Request ID: 4403112976
+[api.views] Serializer data: {'text': 'std::algorithm an', 'context': '#include <iostream>\n#include <limits>\n#include <set>\n#include <utility>\n#include <vector>\nstd::algorithm and\nusing Vertex    = std::uint16_t;\nusing Cost      = std::uint16_t;\nusing Edge      = std::pair< Vertex, Cost >;\nusing Graph     = std::vector< std::vector< Edge > >;\nusing CostTable = std::vector< std::uint64_t >;', 'language': 'c'}
+[api.views] Processing suggestion - Text: std::algorithm an, Context: #include <iostream>
+#include <limits>
+#include <set>
+#include <utility>
+#include <vector>
+std::algorithm and
+using Vertex    = std::uint16_t;
+using Cost      = std::uint16_t;
+using Edge      = std::pair< Vertex, Cost >;
+using Graph     = std::vector< std::vector< Edge > >;
+using CostTable = std::vector< std::uint64_t >;, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+[api.views] suggestions request received - Request ID: 4403318160
+[api.views] Serializer data: {'text': '    while ( !minHeap.', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap., Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'while (!minHeap.empty()) {'}, {'text': 'while (minHeap.size() > 0) {'}, {'text': 'while (!minHeap.begin()->second) {'}]
+[api.views] suggestions request received - Request ID: 4403232208
+[api.views] Serializer data: {'text': '    while ( !minHeap.', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.e\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap., Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.e
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'while (!minHeap.empty()) {\n    auto const vertexCost{ minHeap.begin()->first  }; \n    auto const vertex    { minHeap.begin()->second };\n\n    minHeap.erase( minHeap.begin() );\n\n    // Process neighbors\n    for (const auto& neighbor : graph[vertex]) {\n        if (costTable[neighbor] > vertexCost + edge_cost)\n        {\n            costTable[neighbor] = vertexCost + edge_cost;\n            minHeap.emplace(vertexCost + edge_cost, neighbor);\n        }\n    }\n}'}, {'text': 'while (!minHeap.empty()) {\n    auto const vertexCost{ minHeap.begin()->first  }; \n    auto const vertex    { minHeap.begin()->second };\n\n    minHeap.erase( minHeap.begin() );\n\n    if (vertexCost > costTable[vertex])\n        break;\n\n    // Process node\n}'}, {'text': 'while (!minHeap.empty()) {\n    auto const vertexCost{ minHeap.begin()->first  }; \n    auto const vertex    { minHeap.begin()->second };\n\n    minHeap.erase( minHeap.begin() );\n\n    // Mark as processed or handle accordingly\n}'}]
+[api.views] suggestions request received - Request ID: 4421656720
+[api.views] Serializer data: {'text': '    while ( !minHeap.em', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emp\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.em, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emp
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.ai_service] AI Suggestions: [{'text': 'while (!minHeap.empty()) {'}, {'text': 'while (!minHeap.empty()) { auto const vertexCost = minHeap.begin()->first; auto const vertex = minHeap.begin()->second; minHeap.erase(minHeap.begin());'}, {'text': 'for (const auto& element : minHeap) { auto const vertexCost = element.first; auto const vertex = element.second; }'}]
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/ai_service.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4399628048
+[api.views] Serializer data: {'text': '    while ( !minHeap.em', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emp\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.em, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emp
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Internal Server Error: /api/suggestions/
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/venv/lib/python3.11/site-packages/rest_framework/decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ivanma/Desktop/code-pilot/backend/api/views.py", line 36, in suggestions
+    text=ai_suggestion["text"],
+         ~~~~~~~~~~~~~^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/ivanma/Desktop/code-pilot/backend/api/views.py changed, reloading.
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4592562512
+[api.views] Serializer data: {'text': '    while ( !minHeap.em', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emp\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.em, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emp
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Watching for file changes with StatReloader
+[api.views] suggestions request received - Request ID: 4433508816
+[api.views] Serializer data: {'text': '    while ( !minHeap.em', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emp\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.em, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emp
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433347536
+[api.views] Serializer data: {'text': '    while ( !minHeap.emp', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empt\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.emp, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empt
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433111056
+[api.views] Serializer data: {'text': '    while ( !minHeap.empt', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empt, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433345168
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty  \n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty  
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435129424
+[api.views] Serializer data: {'text': '    while ( !minHeap.empt', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empt, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435070160
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty.\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty.
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435196048
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emptyh\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emptyh
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435147088
+[api.views] Serializer data: {'text': '    while ( !minHeap.emp', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empt\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.emp, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empt
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435243728
+[api.views] Serializer data: {'text': '    while ( !minHeap', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435059216
+[api.views] Serializer data: {'text': '    while ( !minHeap.e', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.em\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.e, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.em
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433345104
+[api.views] Serializer data: {'text': '    while ( !minHeap.wh', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.while (!minHeap.empty())\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.wh, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.while (!minHeap.empty())
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433107920
+[api.views] Serializer data: {'text': '    while ( !minHeap.em', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.emp\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.em, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.emp
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+[api.views] suggestions request received - Request ID: 4435049616
+[api.views] Serializer data: {'text': '    while ( !minHeap.empt', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empt, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435334032
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.be', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.beg\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.be, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.beg
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435311184
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.begi', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.begi, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435425040
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.be', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.beg\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.be, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.beg
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435414928
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.beg', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begi\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.beg, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begi
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435494032
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.minH', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.minHeap.erase(minHeap.begin());\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.minH, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.minHeap.erase(minHeap.begin());
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435557200
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.begi', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begi\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.begi, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begi
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435485392
+[api.views] Serializer data: {'text': '         ', 'context': '        for ( auto const & neighbourEdge : graph[ vertex ] )\n        {\n            auto const & neighbour{ neighbourEdge.first };\n            auto const & cost{ neighbourEdge.second };\n\n            if ( costTable[ neighbour ] > vertexCost + cost )\n            {\n                minHeap.erase( { costTable[ neighbour ], neighbour } );\n                costTable[ neighbour ] = vertexCost + cost;\n                minHeap.emplace( costTable[ neighbour ], neighbour );\n            }', 'language': 'c'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4435307152
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.begi', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.begi, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435432272
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.begin', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin \n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.begin, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin 
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435487632
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap.begin ', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin auto vertex = minHeap.begin()->second; minHeap.pop();\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap.begin, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin auto vertex = minHeap.begin()->second; minHeap.pop();
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435226768
+[api.views] Serializer data: {'text': '        minHeap.erase( ', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( m\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase(, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( m
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435505744
+[api.views] Serializer data: {'text': '        minHeap.erase( mi', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( min\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( mi, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( min
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435412176
+[api.views] Serializer data: {'text': '        minHeap.erase( min', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minH\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( min, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minH
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': ''}}
+[api.views] suggestions request received - Request ID: 4435133712
+[api.views] Serializer data: {'text': '        minHeap.erase( minH', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.erase(minHeap.begin())\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minH, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.erase(minHeap.begin())
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435333648
+[api.views] Serializer data: {'text': '        minHeap.eras', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.eras, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435048720
+[api.views] Serializer data: {'text': '        minHeap.erase(', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( )\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase(, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( )
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435048976
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433107856
+[api.views] Serializer data: {'text': '        minHeap.', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap., Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435618192
+[api.views] Serializer data: {'text': '        minHeap.e', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.er\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.e, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.er
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435656400
+[api.views] Serializer data: {'text': '        minHeap.eras', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.eras, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435646864
+[api.views] Serializer data: {'text': '        minHeap.minHe', 'context': '    while ( !minHeap.empty\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.minHe, Context:     while ( !minHeap.empty
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435542608
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty ', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435589392
+[api.views] Serializer data: {'text': '    while ( !while (m', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !while (minHeap.size() > 0) {\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !while (m, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !while (minHeap.size() > 0) {
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435374224
+[api.views] Serializer data: {'text': '    while ( !minHeap.', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap., Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435429648
+[api.views] Serializer data: {'text': '    while ( ', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());', 'language': 'c'}
+[api.views] Processing suggestion - Text: while (, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435611472
+[api.views] Serializer data: {'text': '    while ( !mi', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !min\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !mi, Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !min
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.minHeap.erase(minHeap.begin());, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433340496
+[api.views] Serializer data: {'text': '', 'context': '\n    while ( !min\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.minHeap.erase(minHeap.begin());\n\n        if ( vertex == end )\n        {\n            break;', 'language': 'c'}
+Bad Request: /api/suggestions/
+[api.views] suggestions request received - Request ID: 4435035920
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435618128
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435141072
+[api.views] Serializer data: {'text': '        minHeap.', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.m\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap., Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.m
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+[api.views] suggestions request received - Request ID: 4435120720
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435738320
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435708368
+[api.views] Serializer data: {'text': '        minHeap.e', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.em\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.e, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.em
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435442320
+[api.views] Serializer data: {'text': '        minHeap.em', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.empty\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.em, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.empty
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435074960
+[api.views] Serializer data: {'text': '        minHeap.emp', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.empl\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.emp, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.empl
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435492944
+[api.views] Serializer data: {'text': '        minHeap.emplac', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.emplace\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.emplac, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.emplace
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4432977552
+[api.views] Serializer data: {'text': '        minHeap.em', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.emp\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.em, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.emp
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435620432
+[api.views] Serializer data: {'text': '        minHeap.empty', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.empty/\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.empty, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.empty/
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435479120
+[api.views] Serializer data: {'text': '        minHeap.e(', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e())\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.e(, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e())
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435241680
+[api.views] Serializer data: {'text': '        if ( ve', 'context': '        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e())\n\n        if ( ver\n        {\n            break;\n        }\n\n        for ( auto const & neighbourEdge : graph[ vertex ] )', 'language': 'c'}
+[api.views] Processing suggestion - Text: if ( ve, Context:         auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e())
+
+        if ( ver
+        {
+            break;
+        }
+
+        for ( auto const & neighbourEdge : graph[ vertex ] ), Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433355728
+[api.views] Serializer data: {'text': '        if ( ver', 'context': '        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e())\n\n        if ( vertex\n        {\n            break;\n        }\n\n        for ( auto const & neighbourEdge : graph[ vertex ] )', 'language': 'c'}
+[api.views] Processing suggestion - Text: if ( ver, Context:         auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e())
+
+        if ( vertex
+        {
+            break;
+        }
+
+        for ( auto const & neighbourEdge : graph[ vertex ] ), Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435063696
+[api.views] Serializer data: {'text': '        if ( vertex', 'context': '        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e())\n\n        if ( vertex \n        {\n            break;\n        }\n\n        for ( auto const & neighbourEdge : graph[ vertex ] )', 'language': 'c'}
+[api.views] Processing suggestion - Text: if ( vertex, Context:         auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e())
+
+        if ( vertex 
+        {
+            break;
+        }
+
+        for ( auto const & neighbourEdge : graph[ vertex ] ), Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435219728
+[api.views] Serializer data: {'text': '        if ( vertex ', 'context': '        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.e())\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }\n\n        for ( auto const & neighbourEdge : graph[ vertex ] )', 'language': 'c'}
+[api.views] Processing suggestion - Text: if ( vertex, Context:         auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.e())
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }
+
+        for ( auto const & neighbourEdge : graph[ vertex ] ), Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435691856
+[api.views] Serializer data: {'text': '        mi', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        min\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: mi, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        min
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435697552
+[api.views] Serializer data: {'text': '        min', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minH\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: min, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minH
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435725904
+[api.views] Serializer data: {'text': '        minHea', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHea, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4434314256
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeape\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeape
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435050320
+[api.views] Serializer data: {'text': '        minHeape', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeape.\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeape, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeape.
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435556752
+[api.views] Serializer data: {'text': '        minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435790288
+[api.views] Serializer data: {'text': '        minHeap.nHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.nHeap.begin()->second);\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.nHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.nHeap.begin()->second);
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435441424
+[api.views] Serializer data: {'text': '        minHeap.nHeap.begin()->second);', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.nHeap.begin()->second);.\n\n        if ( vertex ation) { break; }\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.nHeap.begin()->second);, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.nHeap.begin()->second);.
+
+        if ( vertex ation) { break; }
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435440272
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty()', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty() \n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty(), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty() 
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433356688
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty()', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty() \n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty(), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty() 
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+[api.views] suggestions request received - Request ID: 4433341072
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty() )', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty() ) \n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty() ), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty() ) 
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433508880
+[api.views] Serializer data: {'text': '    while ( !minHeap.empty() ) ', 'context': '    costTable[ start ] = 0;\n\n    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;\n    minHeap.emplace( 0, start );\n\n    while ( !minHeap.empty() )  \n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.begin() );', 'language': 'c'}
+[api.views] Processing suggestion - Text: while ( !minHeap.empty() ), Context:     costTable[ start ] = 0;
+
+    std::set< std::pair< CostTable::value_type, Vertex > > minHeap;
+    minHeap.emplace( 0, start );
+
+    while ( !minHeap.empty() )  
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.begin() );, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433344592
+[api.views] Serializer data: {'text': '        minHeap.erase(', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( )\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase(, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( )
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[api.ai_service] Error generating AI suggestions: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{\n    "suggestions": [\n        {"text": "minHeap.erase(minHeap.begin())"}}'}}
+[api.views] suggestions request received - Request ID: 4435133584
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.)\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.)
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+Retrying request to /openai/v1/chat/completions in 0.388976 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433356880
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.)\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.)
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435071632
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4435137296
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4433535440
+[api.views] Serializer data: {'text': '        minHeap.erase( minHeap', 'context': '    while ( !minHeap.empty() )\n    {\n        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeap.erase( minHeap, Context:     while ( !minHeap.empty() )
+    {
+        auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[api.views] suggestions request received - Request ID: 4540008336
+[api.views] Serializer data: {'text': '        minHeao', 'context': '        auto const vertexCost{ minHeap.begin()->first  };\n        auto const vertex    { minHeap.begin()->second };\n\n        minHeap.erase( minHeap.minHeap.erase(minHeap.begin());\n\n        minHeao.\n\n        if ( vertex == end )\n        {\n            break;\n        }', 'language': 'c'}
+[api.views] Processing suggestion - Text: minHeao, Context:         auto const vertexCost{ minHeap.begin()->first  };
+        auto const vertex    { minHeap.begin()->second };
+
+        minHeap.erase( minHeap.minHeap.erase(minHeap.begin());
+
+        minHeao.
+
+        if ( vertex == end )
+        {
+            break;
+        }, Language: c
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

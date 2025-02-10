@@ -1,0 +1,4 @@
+backend/.env
+judge0-ide/.env
+judge0-ide/node_modules
+backend/venv
