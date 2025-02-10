@@ -1,4 +1,42 @@
-backend/.env
-judge0-ide/.env
-judge0-ide/node_modules
-backend/venv
+# Python virtual environment
+venv/
+backend/venv/
+**/venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Don't ignore judge0-ide directory
+!judge0-ide/
