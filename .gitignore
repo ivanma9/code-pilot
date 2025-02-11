@@ -26,9 +26,6 @@ media/
 *.swp
 *.swo
 
-# Node
-node_modules/
-
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -39,4 +36,4 @@ ehthumbs.db
 Thumbs.db
 
 # Don't ignore judge0-ide directory
-!judge0-ide/
+# !judge0-ide/
